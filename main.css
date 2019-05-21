@@ -69,10 +69,11 @@ h3 {
 }
 
 ul {
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
+
 li {
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 form {
@@ -88,18 +89,6 @@ img {
     padding-top: 20px;
   width: 50%;
   height: auto;
-}
-
-.bottom {
-background-repeat: repeat-x;
-position: absolute;
-right: 0px;
-left: 0px;
-bottom: 0px;
-padding-top: 0px;
-position: fixed;
-width: 10%;
-height: 10%;
 }
 
 .addBtn {
