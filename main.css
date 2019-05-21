@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+/* Navbar section */
+
+.nav {
+    width: 100%;
+    height: 5;
+    position: absolute;
+    line-height: 65px;
+    text-align: center;
+}
+
+
+.nav div.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.nav div.main_list {
+    height: 5px;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.4rem;
+}
+
+
+body {
+	background: #fffbf9;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+  	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	color: pink;
+}
+
+h3 {
+	margin-left: 10%;
+    margin-right:25%;
+    width: 50%;
+}
+
+ul {
+	padding-bottom: 50px;
+}
+li {
+padding-bottom: 20px;
+}
+
+form {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 20%;
+    margin-right:25%;
+    width: 50%;
+
+}
+
+img {
+    padding-top: 20px;
+  width: 50%;
+  height: auto;
+}
+
+.bottom {
+background-repeat: repeat-x;
+position: absolute;
+right: 0px;
+left: 0px;
+bottom: 0px;
+padding-top: 0px;
+position: fixed;
+width: 10%;
+height: 10%;
+}
+
+.addBtn {
+	padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
